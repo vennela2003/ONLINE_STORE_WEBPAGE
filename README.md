@@ -2,11 +2,20 @@ ONLINE_STORE_WEBPAGE
 
 
 
-Dataset: Utilizing a MySQL database with tables for 'items,' 'users,' and 'users_items.' Noteworthy fields include product    details(items), user information (users), and the link between users and items (users_items).
-Tools: Front-end Tools: HTML, CSS, JavaScript for user interfaces.
+Dataset:
+
+Utilizing a MySQL database with tables for 'items,' 'users,' and 'users_items.' Noteworthy fields include product    details(items), user information (users), and the link between users and items (users_items).
+
+Tools: 
+
+Front-end Tools: HTML, CSS, JavaScript for user interfaces.
 Back-end Tools: PHP for server-side scripting.
 Database Management: MySQL through phpMyAdmin.
-Experimental Setup: The experimental environment is set up on a local server using MariaDB (version 10.1.32). PHP version 7.2.5 is employed for server-side processing.
+
+
+Experimental Setup: 
+
+The experimental environment is set up on a local server using MariaDB (version 10.1.32). PHP version 7.2.5 is employed for server-side processing.
 Model/Architecture:The database employs a relational model. Tables include 'items' (product details), 'users' (user information), and 'users_items' (linking users to items with status—'Added to cart' or 'Confirmed'). Foreign key constraints ensure data integrity.
 
 Home page:
